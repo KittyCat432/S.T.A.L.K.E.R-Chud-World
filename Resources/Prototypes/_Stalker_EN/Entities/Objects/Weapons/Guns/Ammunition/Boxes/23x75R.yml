@@ -1,0 +1,62 @@
+- type: entity
+  parent: BaseAmmoBoxStalker
+  id: STAmmoBox23x75Shrapnel10
+  name: Ammo box "shrapnel-10" 23х75мм R
+  description: 
+  components:
+  - type: MagazineVisuals
+    magState: 1270red
+  - type: BallisticAmmoProvider
+    capacity: 10
+    proto: STCartridge23x75Shrapnel10
+    whitelist:
+      tags:
+        - Shell23x75
+  - type: Sprite
+    layers:
+    - state: 1270
+      map: ["enum.GunVisualLayers.Base"]
+    - state: 1270red-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  parent: BaseAmmoBoxStalker
+  id: STAmmoBox23x75Shrapnel25
+  name: Ammo box "shrapnel-25" 23х75мм R
+  description:
+  components:
+    - type: MagazineVisuals
+      magState: 1270red
+    - type: BallisticAmmoProvider
+      capacity: 10
+      proto: STCartridge23x75Shrapnel25
+      whitelist:
+        tags:
+          - Shell23x75
+    - type: Sprite
+      layers:
+        - state: 1270
+          map: ["enum.GunVisualLayers.Base"]
+        - state: 1270red-1
+          map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  parent: BaseAmmoBoxStalker
+  id: STAmmoBox23x75Barricada
+  name: Ammo box "Barricada" 23х75мм R
+  description:
+  components:
+    - type: MagazineVisuals
+      magState: 1270gray
+    - type: BallisticAmmoProvider
+      capacity: 10
+      proto: STCartridge23x75Barricada
+      whitelist:
+        tags:
+          - Shell23x75
+    - type: Sprite
+      layers:
+        - state: 1270solid
+          map: ["enum.GunVisualLayers.Base"]
+        - state: 1270gray-1
+          map: ["enum.GunVisualLayers.Mag"]

@@ -1,0 +1,58 @@
+- type: entity
+  id: STPellet23x75Shrapnel10
+  name: pellet (shrapnel-10)
+  parent: STBasePellet
+  components:
+  - type: Projectile
+    projectileClass: 1
+    damage:
+      types:
+        Piercing: 25
+        Mutant: 30
+
+- type: entity
+  id: STBullet23x75Shrapnel10
+  name: bullet (shrapnel-10)
+  parent: STPellet23x75Shrapnel10
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ProjectileSpread
+    proto: STPellet23x75Shrapnel10
+    count: 8
+    spread: 16
+
+- type: entity
+  id: STPellet23x75Shrapnel25
+  name: pellet (shrapnel-25)
+  parent: STBasePellet
+  components:
+    - type: Projectile
+      projectileClass: 3
+      damage:
+        types:
+          Piercing: 27
+          Mutant: 30
+
+- type: entity
+  id: STBullet23x75Shrapnel25
+  name: bullet (shrapnel-25)
+  parent: STPellet23x75Shrapnel25
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: ProjectileSpread
+      proto: STPellet23x75Shrapnel25
+      count: 6
+      spread: 10
+
+- type: entity
+  id: STBullet23x75Barricada
+  name: bullet (Barricada)
+  parent: STBaseSPBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    projectileClass: 3
+    damage:
+      types:
+        Piercing: 65
+        Blunt: 15

@@ -102,6 +102,9 @@
 - type: Tag
   id: ShellTOZ106
 
+- type: Tag
+  id: Shell23x75
+
 # For ritual chasm, this is stuff related to the flesh mutant
 - type: Tag
   id: STFleshRelated
