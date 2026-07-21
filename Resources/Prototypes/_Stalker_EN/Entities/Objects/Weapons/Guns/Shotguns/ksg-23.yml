@@ -19,6 +19,7 @@
     sprite: _Stalker/Objects/Weapons/Guns/Shotguns/ks23/ks-23.rsi
   - type: Item
     sprite: _Stalker/Objects/Weapons/Guns/Shotguns/ks23/ks-23.rsi
+  - type: GunRequiresWield #remove when self damage/stam damage when shooting while unwielded 
   - type: Gun
     minAngle: 30
     maxAngle: 65
