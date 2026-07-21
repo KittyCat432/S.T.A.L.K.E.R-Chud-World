@@ -2,7 +2,7 @@
   parent: BaseAmmoBoxStalker
   id: STAmmoBox23x75Shrapnel10
   name: Ammo box "shrapnel-10" 23х75мм R
-  description: 
+  description: A 4 gauge shell built to be effective up close having wide spread, can penetrate tier 1 armor.
   components:
   - type: MagazineVisuals
     magState: 1270red
@@ -16,14 +16,14 @@
     layers:
     - state: 1270
       map: ["enum.GunVisualLayers.Base"]
-    - state: 1270red-1
+    - state: 1270yellow-1
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
   parent: BaseAmmoBoxStalker
   id: STAmmoBox23x75Shrapnel25
   name: Ammo box "shrapnel-25" 23х75мм R
-  description:
+  description: A 4 gauge shell built to be effective farther than the prior shrapnel 10 shell having tighter spread, can penetrate tier 3 armor.
   components:
     - type: MagazineVisuals
       magState: 1270red
@@ -44,7 +44,7 @@
   parent: BaseAmmoBoxStalker
   id: STAmmoBox23x75Barricada
   name: Ammo box "Barricada" 23х75мм R
-  description:
+  description: A 4 gauge slug designed to be able to put a hole through a car engine block from a distance, can penetrate tier 3 armor.
   components:
     - type: MagazineVisuals
       magState: 1270gray

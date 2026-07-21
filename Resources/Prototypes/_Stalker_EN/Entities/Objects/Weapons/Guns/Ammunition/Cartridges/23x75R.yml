@@ -12,10 +12,10 @@
   - type: Sprite
     sprite: _Stalker/Objects/Weapons/Guns/Ammunition/Casings/shotgun_shell.rsi
     layers:
-      - state: shrapnel
+      - state: zvezda
         map: [ "enum.AmmoVisualLayers.Base" ]
   - type: SpentAmmoVisuals
-    state: "shrapnel"
+    state: "zvezda"
 
 - type: entity
   id: STCartridge23x75Shrapnel25

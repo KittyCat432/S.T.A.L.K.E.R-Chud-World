@@ -51,6 +51,19 @@
   - type: Item
     sprite: _Stalker/Objects/Weapons/Guns/Shotguns/ks23/ks-23m.rsi
   - type: Gun
-    fireRate: 0.7
-    angleIncrease: 18 #Slightly bigger kick
+    fireRate: 1
+    angleIncrease: 20 #Slightly bigger kick
     angleDecay: 8 # and Slightly faster recovery
+
+- type: entity
+  parent: STBaseWeaponShotgunKS23
+  id: STWeaponShotgunKS23Liturgy
+  name: КS-23 «Liturgy»
+  description: A Soviet and Russian 23-mm carbine. Originally designed as a multi-purpose police weapon intended to quell mass disturbances and selectively use physical, psychological, and chemical force against offenders. In the black market, however, its sole purpose is to kill with mind-boggling power.
+  components:
+    - type: Sprite
+      sprite: _Stalker/Objects/Weapons/Guns/Shotguns/ks23/ks-23m.rsi
+    - type: Clothing
+      sprite: _Stalker/Objects/Weapons/Guns/Shotguns/ks23/ks-23m.rsi
+    - type: Item
+      sprite: _Stalker/Objects/Weapons/Guns/Shotguns/ks23/ks-23m.rsi
