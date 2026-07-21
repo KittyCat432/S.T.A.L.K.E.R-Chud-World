@@ -1,0 +1,17 @@
+# 23x75
+
+- type: entity
+  parent: STBaseBlueprint
+  id: ST23x75Shrapnel25BoxCinkBluePrint
+  name: 23х75мм R "shrapnel-25" blueprint
+  components:
+    - type: STBlueprint
+      blueprint: newrecipe23x75Shrapnel25BoxCink
+
+- type: entity
+  parent: STBaseBlueprint
+  id: ST23x75BarricadaBoxCinkBluePrint
+  name: 23х75мм R "Barricada" blueprint
+  components:
+    - type: STBlueprint
+      blueprint: newrecipe23x75BarricadaBoxCink

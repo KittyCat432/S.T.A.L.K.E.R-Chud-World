@@ -60,3 +60,43 @@
           map: ["enum.GunVisualLayers.Base"]
         - state: 1270gray-1
           map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  parent: BaseAmmoCinkBoxStalker
+  id: STAmmoBox23x75Shrapnel25Cink
+  name: Ammo box "shrapnel-25" 23х75мм R
+  description: A 4 gauge shell built to be effective farther than the prior shrapnel 10 shell having tighter spread, can penetrate tier 3 armor.
+  suffix: Stalker
+  components:
+    - type: BallisticAmmoProvider
+      capacity: 300
+      proto: STCartridge23x75Shrapnel25
+      whitelist:
+        tags:
+          - Shell23x75
+    - type: Sprite
+      layers:
+        - state: cink
+          map: ["enum.GunVisualLayers.Base"]
+        - state: cink
+          map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  parent: BaseAmmoCinkBoxStalker
+  id: STAmmoBox23x75BarricadaCink
+  name: Ammo box "Barricada" 23х75мм R
+  description: A 4 gauge slug designed to be able to put a hole through a car engine block from a distance, can penetrate tier 3 armor.
+  suffix: Stalker
+  components:
+    - type: BallisticAmmoProvider
+      capacity: 300
+      proto: STCartridge23x75Shrapnel25
+      whitelist:
+        tags:
+          - Shell23x75
+    - type: Sprite
+      layers:
+        - state: cink
+          map: ["enum.GunVisualLayers.Base"]
+        - state: cink
+          map: ["enum.GunVisualLayers.Mag"]

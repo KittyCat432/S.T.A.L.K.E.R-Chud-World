@@ -138,6 +138,10 @@
           prob: 0.05
         - id: ClothingBackpackSmugglerBlueprint
           prob: 0.03
+        - id: ST23x75Shrapnel25BoxCinkBluePrint
+          prob: 0.05
+        - id: ST23x75BarricadaBoxCinkBluePrint
+          prob: 0.05
         - id: MakeshiftArtContBlueprint
           prob: 0.03
         - id: STDrinkJarDirtyWater

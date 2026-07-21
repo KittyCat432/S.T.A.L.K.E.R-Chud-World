@@ -1,0 +1,35 @@
+# 23x75
+
+- type: craftRecipe
+  id: newrecipe23x75Shrapnel25BoxCink
+  resultProtos:
+    - STAmmoBox23x75Shrapnel25Cink
+    - STAmmoBox23x75Shrapnel25Cink
+    - STAmmoBox23x75Shrapnel25Cink
+  craftTime: 30
+  requiredWorkbench: StalkerWorktable1
+  items:
+    ST23x75Shrapnel25BoxCinkBluePrint:
+      amount: 1
+      catalyzer: true
+    CraftMaterialGunpowder:
+      amount: 3
+    STCraftSheetBrassT3:
+      amount: 5
+
+- type: craftRecipe
+  id: ewrecipe23x75BarricadaBoxCink
+  resultProtos:
+    - STAmmoBox23x75BarricadaCink
+    - STAmmoBox23x75BarricadaCink
+    - STAmmoBox23x75BarricadaCink
+  craftTime: 30
+  requiredWorkbench: StalkerWorktable1
+  items:
+    ST23x75BarricadaBoxCinkBluePrint:
+      amount: 1
+      catalyzer: true
+    CraftMaterialGunpowder:
+      amount: 3
+    STCraftSheetBrassT3:
+      amount: 5
