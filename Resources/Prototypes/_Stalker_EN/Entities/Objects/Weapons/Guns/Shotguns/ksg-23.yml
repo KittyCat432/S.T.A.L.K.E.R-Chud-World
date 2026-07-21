@@ -1,11 +1,11 @@
 - type: entity
   parent: STBaseWeaponShotgun
-  id: STBaseWeaponShotgunKSG23
+  id: STWeaponShotgunKSG23
   name: КSG-23
   description:
   components:
   - type: BallisticAmmoProvider
-    capacity: 12
+    capacity: 13
     whitelist:
       tags:
       - ShellShotgun
@@ -21,9 +21,9 @@
     sprite: _Stalker/Objects/Weapons/Guns/Shotguns/ks23/ks-23.rsi
   - type: Gun
     minAngle: 30
-    maxAngle: 55
-    angleIncrease: 15
-    angleDecay: 3
-    fireRate: 0.6
+    maxAngle: 65
+    angleIncrease: 18
+    angleDecay: 4
+    fireRate: 0.8
   - type: STWeaponAccuracy
     accuracyMultiplier: 1
