@@ -40,6 +40,10 @@
   # T3
   - productEntity: 45ACPAPBoxCink
     price: 275
+  - productEntity: STAmmoBox23x75Shrapnel25Cink
+    price: 275
+  - productEntity: STAmmoBox23x75BarricadaCink
+    price: 275
   - productEntity: 545PCBoxCink
     price: 275
   - productEntity: 556M855BoxCink

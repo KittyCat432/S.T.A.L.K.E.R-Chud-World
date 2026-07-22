@@ -1,7 +1,7 @@
 - type: entity
   parent: STBaseWeaponShotgun
   id: STWeaponShotgunKSG23
-  name: КSG-23
+  name: КSG-23 "Vanguard"
   description: A modified version of the KSG by Duty artisans designed to fit 23x75 shells. Has a reduced capacity due to this only fitting 12 shots in both tubes and one in the chamber.
   components:
   - type: BallisticAmmoProvider
