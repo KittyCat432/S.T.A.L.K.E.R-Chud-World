@@ -25,7 +25,7 @@
     minAngle: 40
     maxAngle: 70
     angleIncrease: 15
-    angleDecay: 4
+    angleDecay: 6
     fireRate: 1
   - type: STWeaponAccuracy
     accuracyMultiplier: 1

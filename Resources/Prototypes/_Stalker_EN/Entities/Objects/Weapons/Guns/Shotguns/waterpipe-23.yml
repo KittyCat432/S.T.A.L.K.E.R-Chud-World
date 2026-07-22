@@ -1,0 +1,30 @@
+- type: entity
+  parent: STBaseWeaponShotgun
+  id: STWeaponShotgunRenegadeWaterpipe
+  name: Waterpipe
+  description: A marvel of renegade engineering, taken from random pipes found around the swamps and fitted with wood from the nearby trees, this thing only has a small chance of exploding and manages to fire 23x75 rounds.
+  components:
+    - type: BallisticAmmoProvider #TODO: if possible remake into a break action shotgun also make it have a random chance when firing to explode.
+      capacity: 1
+      whitelist:
+        tags:
+          - ShellShotgun
+          - CartridgeShotgunBullet
+          - Shell23x75
+    - type: STWeight
+      self: 3.45
+    - type: Sprite
+      sprite: _Stalker_EN/Objects/Weapons/Guns/Shotguns/rene-waterpipe.rsi
+    - type: Clothing
+      sprite: _Stalker_EN/Objects/Weapons/Guns/Shotguns/rene-waterpipe.rsi
+    - type: Item
+      sprite: _Stalker_EN/Objects/Weapons/Guns/Shotguns/rene-waterpipe.rsi
+    - type: GunRequiresWield #remove when self damage/stam damage when shooting while unwielded 
+    - type: Gun
+      minAngle: 40
+      maxAngle: 70
+      angleIncrease: 30
+      angleDecay: 4
+      fireRate: 0.4
+    - type: STWeaponAccuracy
+      accuracyMultiplier: 1

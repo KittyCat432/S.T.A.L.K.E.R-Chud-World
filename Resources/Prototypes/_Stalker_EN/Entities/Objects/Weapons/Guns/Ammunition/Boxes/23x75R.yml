@@ -90,7 +90,7 @@
   components:
     - type: BallisticAmmoProvider
       capacity: 300
-      proto: STCartridge23x75Shrapnel25
+      proto: STCartridge23x75Barricada
       whitelist:
         tags:
           - Shell23x75
