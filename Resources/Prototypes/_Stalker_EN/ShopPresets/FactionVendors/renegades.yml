@@ -111,6 +111,8 @@
         # Guns
       #20gauge
       STBaseWeaponShotgunTOZ106: 500 # T1
+      #23x75
+      STWeaponShotgunRenegadeWaterpipe: 700 #T -1
       # 7mm
       STWeaponShotgunMP155T: 45 #T0.5
       STWeaponShotgunTOZ34: 200 # T1
@@ -164,6 +166,8 @@
       7mmBuckshotBox: 50 # T0
       6mmBuckshotBox: 200 # T1
       8mmBuckshotBox: 450 # T2
+      #23x75
+      STAmmoBox23x75Shrapnel10: 350 # T1/Mutant
       # 7.25
       725PBox: 100 # T1
       725LRNPCBox: 625 # Mutant
@@ -476,6 +480,8 @@
   - name: shop-category-weapons
     priority: 1
     items:
+      # 23x75
+      STWeaponShotgunKS23Liturgy: 7
       # 5,45x39
       STWeaponRifleAKS74U: 3
       STWeaponRifleAKS74: 6
@@ -501,6 +507,9 @@
   - name: shop-category-ammunition
     priority: 3
     items:
+      #23x75
+      STAmmoBox23x75Shrapnel25: 1 # T3
+      STAmmoBox23x75Barricada: 2 #T3
       # 7.25
       725PSTBox: 1 # T3
       # 9.19

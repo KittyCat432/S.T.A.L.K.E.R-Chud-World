@@ -9,6 +9,7 @@
   - name: shop-category-weapons
     priority: 1
     items:
+      STWeaponShotgunKSG23: 125
       STWeaponRifleAK103: 200
       STWeaponSniperSVU: 400
   - name: shop-category-magazines

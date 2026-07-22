@@ -244,6 +244,10 @@
         7mmBuckshotBox: 50 # T0
         6mmBuckshotBox: 200 # T1
         8mmBuckshotBox: 450 # T2
+        # 23x75
+        STAmmoBox23x75Shrapnel10: 450 # T1/Mutant
+        STAmmoBox23x75Shrapnel25: 1100 # T3
+        STAmmoBox23x75Barricada: 1150 #T3
         # .45
         45ACPLFMJBox: 100 # T1
         45ACPMFMJBox: 300 # T2

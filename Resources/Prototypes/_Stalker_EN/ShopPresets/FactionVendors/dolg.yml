@@ -45,6 +45,7 @@
         STWeaponShotgunTOZ34: 200
         STWeaponShotgunMP133: 340
         STWeaponShotgunMP153: 800
+        STWeaponShotgunKS23: 3150
         # Rifles
         STWeaponRifleSaiga545: 1000
         STWeaponRifleAKS74U: 1500
@@ -88,6 +89,10 @@
         6mmBuckshotBox: 225 # T1
         7mmBuckshotBox: 50 # T0
         8mmBuckshotBox: 600 # T2
+        #23x75
+        STAmmoBox23x75Shrapnel10: 450 # T1/Mutant
+        STAmmoBox23x75Shrapnel25: 1050 # T3
+        STAmmoBox23x75Barricada: 1100 #T3
         # 7.25
         725PBox: 90 # T1
         725LRNPCBox: 500 # Mutant
