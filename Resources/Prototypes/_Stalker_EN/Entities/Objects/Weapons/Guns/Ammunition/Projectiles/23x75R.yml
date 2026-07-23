@@ -4,11 +4,11 @@
   parent: STBasePellet
   components:
   - type: Projectile
-    projectileClass: 1
+    projectileClass: 0
     damage:
       types:
-        Piercing: 27
-        Mutant: 45  
+        Piercing: 25
+        Mutant: 47  
 
 - type: entity
   id: STBullet23x75Shrapnel10

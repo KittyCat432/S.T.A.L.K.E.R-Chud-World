@@ -2,7 +2,7 @@
   parent: BaseAmmoBoxStalker
   id: STAmmoBox23x75Shrapnel10
   name: Ammo box "shrapnel-10" 23х75мм R
-  description: A 4 gauge shell built to be effective up close having wide spread, can penetrate tier 1 armor.
+  description: A 4 gauge shell built to be effective up close having wide spread, only works against unarmored targets.
   components:
   - type: MagazineVisuals
     magState: 1270red
